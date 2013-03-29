@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://jailjones.github.com/blog/archives/</loc>
+        <loc>http://jaijones.me/blog/archives/</loc>
         <lastmod>2013-03-28T21:43:13-05:00</lastmod>
     </url>
     <url>
-        <loc>http://jailjones.github.com/</loc>
+        <loc>http://jaijones.me/</loc>
         <lastmod>2013-03-28T21:43:13-05:00</lastmod>
     </url>
     <url>
-        <loc>http://jailjones.github.com/robots.txt</loc>
+        <loc>http://jaijones.me/robots.txt</loc>
         <lastmod>2013-03-28T21:43:13-05:00</lastmod>
     </url>
 </urlset>
