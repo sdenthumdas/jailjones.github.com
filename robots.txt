@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://jaijones.me/sitemap.xml 
