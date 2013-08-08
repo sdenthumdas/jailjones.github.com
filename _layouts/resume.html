@@ -2,21 +2,15 @@
 ---
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="author" content="{{ page.author }}">
-	<meta name="description" content="{{ page.description }}">
-	<meta name="keywords" content="{{ page.tags }}">
-	<title>{{ page.title }}</title>  
-	<meta name="viewport" content="width=device-width">
+<head>	
+	{% include meta.html %}
 	{% include styles.html %}
 	<link rel="stylesheet" href="/css/resume.css">
 </head>
 <body data-spy="scroll" data-target=".cv-sidebar">
 	<div class="container cv-container">
 		<div class="row">
-			<div class="col-2">	
+			<div class="col-lg-2">	
 				<div class="cv-sidebar" data-spy="affix" data-offset-top="50" data-offset-bottom="200">
 					<address class="cv-address text-right">
 						<img class="img-circle" src="http://www.gravatar.com/avatar/ae1aae200943fb2a85c397e845d86beb.png"></img>
@@ -29,10 +23,10 @@
 					</address>					
 				</div>
 			</div>
-			<div class="col-8 cv-body">
+			<div class="col-lg-8 cv-body">
 				{{ content }}    		
 			</div>
-			<div class="col-2">
+			<div class="col-lg-2">
 				<div class="cv-sidebar" data-spy="affix" data-offset-top="50" data-offset-bottom="200">
 				<ul class="nav">
 						<li><a href="#objective">Objective</a></li>
