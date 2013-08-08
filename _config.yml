@@ -3,4 +3,4 @@ markdown: redcarpet
 pygments: true
 url: http://jaijones.me
 
-exclude: ['Rakefile']
+exclude: ['Rakefile', '.gitignore', '*.sublime-project']
