@@ -1,159 +1,143 @@
 ---
+layout: resume
+title: "Resume -  Jai Jones"
+author: Jai Jones
+description: My Resume
+date:   2013-08-04 10:31:49
 ---
-
+<section id="objective" class="cv-section">
 # Objective
+Seeking Architect or Sr. Software Developer position.Professional Summary	 	
+</section>
 
-Seeking Software Architect or Sr. Software Engineer position.
-
+<section id="summary" class="cv-section">
 # Professional Summary
 
-* 15 years software development experience; 14 years Java; 13 years Enterprise Java.
-* 11 years consulting experience on Java and JEE/J2EE projects.
+* 15 years software development experience; 14 years Java; 13 years enterprise web development.
+* 11 years consulting/contracting experience.
 * 8 years application architecture and team lead experience.
-* Co-founded software consultancy firm, The Exchange Group.
+* 2 years ecommerce experience.
+* 4 years retail experience; 4 years banking/finance; 2 years ecommerce.
+* 2 years experience as Scrum Master.
+* Co-founded The Exchange Group, a software consultancy firm.
 
+</section>
+
+<section id="projects" class="cv-section">
 # Key Projects
 
-Retail Item Master File: Team Lead and Application Architect for JCPenney's Item Master File system; built a Java web application front end with a service-oriented back end; system was a Master data management application that housed and distributed retail item data to enterprise applications for store and online sales, business intelligence and product sourcing; in production since April 2011.
+## Pepboys.com
+I was one of the original developers/architects that built [pepboys.com][pby] ecommerce website.  I designed and built the [pepboys.com][pby] order management system that process all web orders for the ecommerce website.  The system handles ~1000 orders/day and process over $100k/day in transactions. I also built account management, account registration, store geolocation, and appointment scheduling modules.  
 
-Lead Referral System (LRS): Team Lead and Architect for Global Payment’s Lead Referral System (LRS); system was based on a service-oriented architecture (SOA) and built on top of an Enterprise Service Bus (ESB); captured and displayed leads entered by referral partners in a JEE component-based web UI; enabled real-time lead exchange with external CRM and internal customer enrollment systems via web services; in production since October 2007.
+## JCPenney Product Master Data Management
+I lead a 14 developer team that built JCPenney's Item Master Data Management System.  My team built a front end web application used by JCPenney merchandising associates to catalog retail products for sale online and in stores.  The backend consisted of web services and message queues that provided services and data for enterprise systems and the JCPenny.com web store. 
 
-Customer Master File (CMF): Lead designer and developer on Global Payments CMF application; built a declarative business rules engine enabling developers to keep up with rapidly changing rules; built an ORM tool capable of mapping legacy databases schemas; chief designer of Oracle Portal application modules; in production since December 2008.
+## Global Payments Lead Referral Application
+I lead a 3 person team lead that built a lead referral application for GlobalPayments.com.  The application was used by affiliate partners to capture and submit leads to GlobalPayment’s sales associates.  The front end was a multi-tenant web application that captured and tracked leads through the sales cycle.  The backend integrated with GlobalPayment’s CRM to track a lead through its lifecycle.  The system managed several thousand leads, generated additional revenue for GlobalPayments and its affiliate partners and made the lead referral process easy.
 
-Consignor Portals: Team lead and architect of consignor portal applications for Manheim; built branded Plumtree Portal websites for Manheim customers; created content and collaborative portal applications that exposed content and services as Portlets from backend system; rolled out three consignor portals as of September 2005.
+## Manheim Auctions Consignor Portals
+I lead a 5 person team that built custom portal websites for Manheim’s customers.  The websites were used by automobile manufacturers to showcase vehicles for before an auction.  My team built a website framework using Plumtree/Oracle Portal technology which made it possible for business users to build custom websites.  As a resume Manheim was able to rollout turnkey websites with very short development cycles. 
+</section>
 
+<section id="skills" class="cv-section">
 # Technical Skills
 
-Languages
-Java, Groovy, Scala, Visual Basic, SQL, XML, HTML, CSS, JavaScript, UML
+## Programming Languages
+Java, Groovy, Scala, SQL, HTML5, CSS3, JavaScript, XML, Velocity, FreeMarker, JSP
 
-Standards
-JEE, SOAP, REST, JPA, JMS, JNDI, JDBC, AJAX, JAX-WS, JTA
+## Web/Application Frameworks
+Spring, Hibernate, Spring MVC, Struts, Spring Web Flow, GWT, Apache Click, Play Framework, JSF/RichFaces, Knockout.js, JQuery, Lucene, Bootstrap, JPA, JMS, Servlets, JDBC, JEE, JasperReports
 
-Web Frameworks
-Spring MVC, Struts, Spring Web Flow, GWT, Apache Click, Play! Framework, JSF/RichFaces, Restlet, Spring Roo
+## Application Servers
+Tomcat, JBoss, WebSphere (WAS), Jetty, Weblogic, Amazon Web Services (AWS), Rackspace Cloud
 
-Application Frameworks
-Spring (Integration, Security, Batch), Hibernate (JPA, Search, Validator), CXF, Apache Camel, IBatis
+## Databases
+Oracle, DB2, MySQL, MS SQL Server, MongoDB, Db4objects
 
-Application Platforms
-Tomcat, JBoss, WebSphere (WAS), Jetty, Weblogic, Oracle Application Server (OC4J), Weblogic Portal, Oracle Portal, Liferay Portal, Google App Engine, Amazon Web Services (AWS)
+## Application Platforms
+Oracle Portal, Liferay Portal, Broadleaf Commerce, Alfresco CMS, OpenText CMS
 
-Database Platforms
-Oracle, DB2, MySQL, MS SQL Server, HSQL, H2, Derby, Db4o, MongoDB, Google DataStore
+## Integration Platforms
+TIBCO, Mule, ActiveMQ, IBM WebSphere MQ, Camel, Apache CXF, Akka, Spring Integration, ServiceMix, SOAP, REST
 
-Integration Platforms
-TIBCO, ActiveMQ, MQ Series
+## Development Tools
+Eclipse, Netbeans, IntelliJ, Maven, Ant, Gradle, Subversion/SVN, Git/GitHub, Sonar, Hudson/Jenkins, Sbt, Geb, Mockito, ScalaTest
 
-Operating Systems
-Windows, Ubuntu, CentOS, RedHat, AIX, Solaris, HP UX, Mac OSX
+## Development Methodologies
+Scrum, Agile, XP, Waterfall, TDD, BDD
+</section>
 
-Development Tools
-Eclipse, Netbeans, IntelliJ, Maven, Ant, Gradle, SVN, Git, Sonar, Hudson/Jenkins
-
-Development Methodologies
-SCRUM, Agile, XP, Waterfall, TDD, BDD
-
-
+<section id="history" class="cv-section">
 # Work History
 
-JCPenney, Plano, TX		
-Technical Lead
-April 2010 - Present
+## Credera, Addison, TX | May 2011 - Present
+### Architect
 
-Design and lead development for item master file web application and integration services.  Responsible for technical design, requirements analysis, driving the development process, and application deployment.
-Provide reference applications using popular Java web application technologies including GWT, Adobe Flex, Spring MVC, Play! Framework, Spring Roo.
-Lead 14 person team:  6 onsite; 8 offshore.
-Taught 5 Cobol developers to build an enterprise Java web application.
-Implement command query responsibility segregation pattern and components including domains, event bus, repositories, query models, command handling framework.
-Technical advisor to JCPenney development teams.
-Founder of the JCPenney Java Users Group.
+* I was one of the original developers/architects that built pepboys.com ecommerce website.
+* Designer and primary developer of pepboys.com Order Management System.
+* Administered pepboys.com Mule integration server and built data integration applications between pepboys.com and enterprise systems.
+* Developed appointment scheduling, account registration, account management modules for pepboys.com
+* Mentored Jr. developers on design patterns, best practices and how to best use the technology stack.
 
-Technologies Used: Java, JEE, Spring, Hibernate, Lucene, JSF/Richfaces, Spring Web Flow, DB2, WAS, CXF/Web Services, JMS/TIBCO
+---
 
-Global Payments, Atlanta, GA	
-Technical Lead
-September 2005 - March 2009
+## JCPenney, Plano, TX | April 2010 - May 2011
+###Technical Lead
+ 
+* Designed and lead development for item master file web application and integration services.  Responsible for technical design, requirements analysis, driving the development process, and application deployment.
+* Lead a 14 person development team:  6 onsite; 8 offshore.
+* Taught Java to Cobol developers.
+* Founded JCPenney Java Users Group.
 
-Architected a service oriented (SOA) lead referral system (LRS) for Global Payment’s referral partners. System was composed of a front end JEE/J2EE Web application and a backend lead transport system built on an Enterprise Service Bus (ESB).
+---
 
-Team lead for Lead Referral System (LRS); team was composed of three Sr. Java JEE developers.
+## Global Payments, Atlanta, GA | September 2005 - March 2009
+### Technical Lead
 
-Built modular lead referral web application including UI, database persistence, security, validation and business rules using Spring, Hibernate, Apache Click, Hibernate Search, Acegi/Spring Security.
-Built Enterprise Service Bus (ESB) for exchanging leads with CRM, customer enrollment 	and lead referral systems using Camel, XFire/CXF, Spring, JAXB, XML and ActiveMQ. JAXB was used to marshal JMS messages to/from XML.
+* Built a lead referral web application for Global Payment’s referral partners. 
+* Lead a 3 person development team.
+* Instituted test-driven development TDD.
+* Built a custom business rules framework.
 
-Used domain-driven design principals to model lead referral business as software artifacts using UML and Visio.
-Instituted agile software practices and tools that streamlined LRS project; tools included Maven, Artifactory, Hudson, Trac, JIRA and JUnit.
+---
 
-Instituted test-driven development practices including code coverage analysis which resulted in lower overall defect rate using JUnit, Spring Test Framework, Cobertura (Code Coverage) and Maven.
+## Manheim Auctions, Atlanta, GA | December 2003 - September 2005
+### Technical Lead
 
-Built declarative business rules engine for CRM project using Spring, XML, Beanshell 	and Apache Chain.
-Built an object relational mapping (ORM) tool for CRM project using IBatis and Spring.
-Built a Google-like auto complete feature for CRM project using DWR and AJAX.
-Built customer-facing portal application for CRM project using Struts, Tiles, Spring, IBatis, Portlets (JSR168), Oracle and Oracle Portal.
+* Built custom portal websites for Manheim customers.
+* Lead a 4 person development team.
+* Participated in Plumtree’s Java portal beta testing programs for valued clients; contributed code fixes and features to Plumtree’s Java Portal implementation, specifically their Java Portlet container.
+* Migrated Manheim’s corporate intranet from a custom Struts application to a Plumtree Portal application. Built Portlets that exposed services and data from back end databases, CMS and collaboration systems; built content and collaboration Portlets .
 
-Technologies Used: Java, JEE, JMS, JPA, JDBC, HTML, XML, SOAP, SOA, AJAX, JAXB, Oracle Database, Oracle Portal, Oracle Application Server (OC4J), MySQL, Db4o, Spring, Acegi/Spring Security, Hibernate, Hibernate Search, IBatis, Struts, Tiles, Maven, Camel, ActiveMQ, Apache Click, Artifactory, Hudson, Eclipse, SQL, SVN, Visual Source Safe (VSS), Jasper Reports, Velocity, Lucene, Apache CXF, DWR, Junit, JMock, Portlets (JSR168)
+---
 
-Manheim, Atlanta, GA			
-Technical Lead
-December 2003 - September 2005
+## The Exchange Group, Norcross, GA | August 2002 - December 2003
+### Principal Consultant and Co-Founder
 
-Built branded portal websites for Manheim customers called consignor portals using Plumtree Portal, Spring, DB2, SOAP Web Services and Portlets (JSR168).
-Led Consignor Portal team consisting of four Java J2EE and Portlet (JSR168) developers.
-Participated in Plumtree’s Java portal beta testing programs for valued clients; 	contributed code fixes and features to Plumtree’s Java Portal implementation, specifically their Java Portlet (JSR168) container.
-Migrated Manheim’s corporate intranet from a custom Struts application to a Plumtree 	Portal application. Built Portlets (JSR168) that exposed services and data from back end databases, CMS and collaboration systems; built content and collaboration Portlets (JSR168).
-Developed Java Portlets (JSR168) to expose content and services from backend systems inside Plumtree Portal.
-	 	
-Technologies Used: Java, J2EE, Plumtree/Weblogic Portal, Portlets (JSR168), Oracle Database, IBM DB2, Spring, Struts, Tomcat, UBB, PHP, Open Text CMS, LDAP, Active Directory, SOAP, Web Services, XML, HTML, Servlets, JSP, UML, WSAD, Maven, JIRA, CVS.
+* Provided CRM software consulting and development services to Delta Airlines, Fulton County Schools and Russell Business Forms (RBF); employed five developers.
+* Built data mining, customer analysis and database reporting systems for clients.
+* Built customer-facing portals and webinars for clients.
 
-The Exchange Group, Norcross, GA
-Consultant and Co-Founder
-August 2002 - December 2003
-	
-Provided CRM software consulting and development services to Delta Airlines, Fulton County Schools and Russell Business Forms (RBF); employed five developers.
-Built data mining, customer analysis and database reporting systems for clients.
-Built customer-facing portals and webinars for clients using Apache JetSpeed, Liferay Portal, Struts, Portlets (JSR168) and Java.
+---
 
-Technologies Used: Java, JEE/J2EE, Liferay Portal, Portlets (JSR168), Apache JetSpeed, Portlets, Struts, Tomcat, Tiles, Style Reports, UML, Web Services, JMS, Servlets, JSP, MS SQL Server, MS SQL Server Analysis Services, MySQL,.
+## Metavante Corporation, Norcross, GA | November 2000 - August 2002
+### Contractor
 
-Metavante Corporation, Norcross, GA
-Software Consultant	 	
-November 2000 - August 2002
-	
-Worked as a consultant to Metavante clients on stalled projects.	
-Technical lead for Multiple Account Transfer application; 6 member team composed of 	Java J2EE developers. 	
-Integrated client-facing call center software with backend cash management system; using Java, J2EE, EJB, Gemstone, MQ Series. 	
-Rewrote Special Reports reporting application; prior to rewrite, client did not want to purchase because of poor performance; performed rewrite that decreased report generation time to an acceptable amount, which enabled Metavante to sell the product.
-Built application session management framework to overcome limitations with Java Servlet sessions. 
+---
 
-Technologies Used: Java, J2EE, XML, JAXP, HTML, Java Applets, EJB, Servlets, JSP, Xerces, Gemstone, MQ Series.
+## Hitachi Telecom, Norcross, GA | February 2000 - November 2000
+### Sr. Software Engineer
+</section>
 
-Hitachi Telecom, Norcross, GA		
-Sr. Software Engineer
-February 2000 - November 2000
-
-Technical lead for Next Generation Telecommunications EMS System backend development; 6 member team composed of Java, C++, XML developers. Responsibilities included: requirements writing, system architecture, feature design and coding.
-Built client platform for Next Generation Telecommunication EMS System.  Responsibilities included:  evaluating 3rd party GUI components, requirements writing, feature design and coding using Java, Swing, XML and JMS.
-Presenter and educator on J2EE technologies specifically EJB and JMS technologies.  Developed business and technical presentations and written tutorials.
-Established J2EE developer training program. Secured independent trainers and produced course material.
-
-Technologies Used: Java, J2EE, EJB, JMS, JDBC, JNDI, XML, CORBA, Weblogic, IONA IPortal, JRun 3.0, Orion Application Server, Rational Rose, UML, Oracle Database, Swing, Protoview GUI components, SonicMQ, MQ Series.
-
-Synergistic Solutions, Atlanta, Georgia	
-Sr. Software Developer
-January 1999 - February 2000
-	 	
-Developed client-facing project management and budgeting applications using Java, J++ and Sybase.
-Reengineered data model from ADO to JDBC for project management applications using 	Java, J++ and Sybase.
-Developed internal customer support and employee management applications using Java, J++ and Sybase.
-Developed and maintained corporate intranet using ASP, VB and Sybase.
-
-Technologies Used: Java, Sybase Adaptive Server, ASP, ADO, JDBC, Microsoft J++, Visual InterDev.
-
+<section id="education" class="cv-section">
 # Education
 
-Master of Information Technology, 2000
-American Intercontinental University, Atlanta, Georgia
+## American Intercontinental University, Atlanta, Georgia
+### Master of Information Technology, 2000
 
-Bachelor of Science, Chemical Engineering, 1996
-North Carolina Agricultural and Technical State University, Greensboro, North Carolina
+
+## North Carolina A&T State University, Greensboro, North Carolina
+### Bachelor of Science, Chemical Engineering, 1996
+</section>
+
+[pby]: http://www.pepboys.com/ 

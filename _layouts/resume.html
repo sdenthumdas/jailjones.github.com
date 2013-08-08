@@ -1,0 +1,83 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="author" content="{{ page.author }}">
+	<meta name="description" content="{{ page.description }}">
+	<meta name="keywords" content="{{ page.tags }}">
+	<title>{{ page.title }}</title>  
+	<meta name="viewport" content="width=device-width">
+	{% include styles.html %}
+	<link rel="stylesheet" href="/css/resume.css">
+</head>
+<body data-spy="scroll" data-target=".cv-sidebar">
+	<div class="container cv-container">
+		<div class="row">
+			<div class="col-lg-2">	
+				<div class="cv-sidebar" data-spy="affix" data-offset-top="50" data-offset-bottom="200">
+					<address class="cv-address text-right">
+						<img class="img-circle" src="http://www.gravatar.com/avatar/ae1aae200943fb2a85c397e845d86beb.png"></img>
+						<span class="name">Jai Jones</span>
+						<span>13232 Bodega Trail<i class="icon-home icon-fixed-width icon-large"></i></span>
+						<span>Frisco, TX 75035<i class="icon-map-marker icon-fixed-width icon-large"></i></span>
+						<span>(770) 380-6741<i class="icon-phone icon-fixed-width icon-large"></i></span>
+						<span><a href="mailto:jailjones@gmail.com" target="_blank">jailjones@gmail.com</a><i class="icon-envelope icon-fixed-width icon-large"></i></span>
+						<span><a href="http://jaijones.me" target="_blank">jaijones.me</a><i class="icon-globe icon-fixed-width icon-large"></i></span> 
+					</address>					
+				</div>
+			</div>
+			<div class="col-lg-8 cv-body">
+				{{ content }}    		
+			</div>
+			<div class="col-lg-2">
+				<div class="cv-sidebar" data-spy="affix" data-offset-top="50" data-offset-bottom="200">
+				<ul class="nav">
+						<li><a href="#objective">Objective</a></li>
+						<li><a href="#summary">Professional Summary</a></li>
+						<li><a href="#projects">Key Projects</a></li>						
+						<li><a href="#skills">Technical Skills</a></li>
+						<li><a href="#history">Work History</a></li>
+						<li><a href="#education">Education</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>		
+	</div>
+	{% include scripts.html %}
+</body>
+</html>
+<!--
+<header>
+	<hgroup class="title">		
+		<h1 class"fn">Jai Jones</h1>
+		<h2 class="occupation">Enterprise Software Developer</h2>	
+	</hgroup>
+	<address class="block">
+		<span class="st"><i class="icon-home icon-fixed-width"></i>13232 Bodega Trail</span>
+		<span class="csz"><i class="icon-fixed-width"></i>Frisco, TX 75035</span>
+		<span class="ph"><i class="icon-phone icon-fixed-width"></i>(770) 380-6741</span>
+		<span class="em"><i class="icon-envelope icon-fixed-width"></i><a href="mailto:jailjones@gmail.com">jailjones@gmail.com</a></span>
+		<span class="ws"><i class="icon-globe icon-fixed-width"></i><a href="http://jaijones.me">jaijones.me</a></span> 
+		<div class="social">
+			<span class="linkedin">
+				<a href="http://www.linkedin.com/in/jaijones">
+					<i class="icon-linkedin-sign icon-2x"></i>									
+				</a>
+			</span>
+		</div>
+	</address>
+</header>
+-->
+<!-- <footer>
+	<hr>
+	<address class="inline text-center">
+		<span class="st"><i class="icon-home"></i>13232 Bodega Trail</span>
+		<span class="st"><i class="icon-map-marker"></i>Frisco, TX 75035</span>
+		<span class="ph"><i class="icon-phone"></i>(770) 380-6741</span>
+		<span class="em"><i class="icon-envelope"></i><a href="mailto:jailjones@gmail.com">jailjones@gmail.com</a></span>
+		<span class="ws"><i class="icon-globe"></i><a href="http://jaijones.me">jaijones.me</a></span> 		
+	</address>
+</footer> -->

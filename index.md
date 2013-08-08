@@ -5,4 +5,4 @@ author: Jai Jones
 description: Home Page
 ---
 
-My New Site
+<meta http-equiv="refresh" content="0; url=/resume.html">
