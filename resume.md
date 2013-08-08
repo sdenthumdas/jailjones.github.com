@@ -7,7 +7,7 @@ date:   2013-08-04 10:31:49
 ---
 <section id="objective" class="cv-section">
 # Objective
-Seeking Architect or Sr. Software Developer position.Professional Summary	 	
+Seeking Architect or Sr. Software Developer position.
 </section>
 
 <section id="summary" class="cv-section">
