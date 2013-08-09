@@ -5,12 +5,11 @@ author: Jai Jones
 description: My Resume
 date:   2013-08-04 10:31:49
 ---
-<section id="objective" class="cv-section">
-# Objective
+<span id="objective" class="cv-section"/>
+# Objective 
 Seeking Architect or Sr. Software Developer position.
-</section>
 
-<section id="summary" class="cv-section">
+<span id="summary" class="cv-section"/>
 # Professional Summary
 
 * 15 years software development experience; 14 years Java; 13 years enterprise web development.
@@ -21,9 +20,7 @@ Seeking Architect or Sr. Software Developer position.
 * 2 years experience as Scrum Master.
 * Co-founded The Exchange Group, a software consultancy firm.
 
-</section>
-
-<section id="projects" class="cv-section">
+<span id="projects" class="cv-section"/>
 # Key Projects
 
 ## Pepboys.com
@@ -37,9 +34,8 @@ I led a 3 person team that built a lead referral application for GlobalPayments.
 
 ## Manheim Auctions Consignor Portals
 I led a 5 person team that built custom portal websites for Manheim’s customers.  The websites were used by automobile manufacturers to showcase vehicles available for auction.  My team built a website framework using Plumtree/Oracle Portal technology which made it possible for business users to build custom websites.  As a result Manheim was able to rollout turnkey websites with very short development cycles. 
-</section>
 
-<section id="skills" class="cv-section">
+<span id="skills" class="cv-section"/>
 # Technical Skills
 
 ## Programming Languages
@@ -65,9 +61,8 @@ Eclipse, Netbeans, IntelliJ, Maven, Ant, Gradle, Subversion/SVN, Git/GitHub, Son
 
 ## Development Methodologies
 Scrum, Agile, XP, Waterfall, TDD, BDD
-</section>
 
-<section id="history" class="cv-section">
+<span id="history" class="cv-section"/>
 # Work History
 
 ## Credera, Addison, TX | May 2011 - Present
@@ -127,17 +122,14 @@ Scrum, Agile, XP, Waterfall, TDD, BDD
 
 ## Hitachi Telecom, Norcross, GA | February 2000 - November 2000
 ### Sr. Software Engineer
-</section>
 
-<section id="education" class="cv-section">
+<span id="education" class="cv-section"/>
 # Education
 
 ## American Intercontinental University, Atlanta, Georgia
 ### Master of Information Technology, 2000
 
-
 ## North Carolina A&T State University, Greensboro, North Carolina
 ### Bachelor of Science, Chemical Engineering, 1996
-</section>
 
 [pby]: http://www.pepboys.com/ 
