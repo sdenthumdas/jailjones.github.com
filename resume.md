@@ -27,16 +27,16 @@ Seeking Architect or Sr. Software Developer position.
 # Key Projects
 
 ## Pepboys.com
-I was one of the original developers/architects that built [pepboys.com][pby] ecommerce website.  I designed and built the [pepboys.com][pby] order management system that process all web orders for the ecommerce website.  The system handles ~1000 orders/day and process over $100k/day in transactions. I also built account management, account registration, store geolocation, and appointment scheduling modules.  
+I was one of the original developers/architects that built [pepboys.com][pby] ecommerce website.  I designed and built the [pepboys.com][pby] order management system that processes all web orders for their ecommerce website.  The system handles ~1000 orders/day and process over $100k/day in transactions. I also built account management, account registration, store geolocation, and appointment scheduling modules.
 
 ## JCPenney Product Master Data Management
-I lead a 14 developer team that built JCPenney's Item Master Data Management System.  My team built a front end web application used by JCPenney merchandising associates to catalog retail products for sale online and in stores.  The backend consisted of web services and message queues that provided services and data for enterprise systems and the JCPenny.com web store. 
+I led a 14 developer team that built JCPenney's Item Master Data Management System.  My team built a front end web application used by JCPenney merchandising associates to catalog retail products for sale online and in stores.  The backend system was built using a service-oriented architecture that provided services and data to enterprise systems. 
 
 ## Global Payments Lead Referral Application
-I lead a 3 person team lead that built a lead referral application for GlobalPayments.com.  The application was used by affiliate partners to capture and submit leads to GlobalPayment’s sales associates.  The front end was a multi-tenant web application that captured and tracked leads through the sales cycle.  The backend integrated with GlobalPayment’s CRM to track a lead through its lifecycle.  The system managed several thousand leads, generated additional revenue for GlobalPayments and its affiliate partners and made the lead referral process easy.
+I led a 3 person team that built a lead referral application for GlobalPayments.  The application was used by affiliate partners to capture and submit leads to GlobalPayment’s sales associates.  The front end was a multi-tenant web application that captured and tracked leads.  The backend integrated with GlobalPayment’s CRM to track a lead through its lifecycle.  The system was able to managed several thousand leads at a time.  The application generated additional revenue for GlobalPayments and its affiliate partners and simplified the lead referral process.
 
 ## Manheim Auctions Consignor Portals
-I lead a 5 person team that built custom portal websites for Manheim’s customers.  The websites were used by automobile manufacturers to showcase vehicles for before an auction.  My team built a website framework using Plumtree/Oracle Portal technology which made it possible for business users to build custom websites.  As a resume Manheim was able to rollout turnkey websites with very short development cycles. 
+I led a 5 person team that built custom portal websites for Manheim’s customers.  The websites were used by automobile manufacturers to showcase vehicles available for auction.  My team built a website framework using Plumtree/Oracle Portal technology which made it possible for business users to build custom websites.  As a result Manheim was able to rollout turnkey websites with very short development cycles. 
 </section>
 
 <section id="skills" class="cv-section">
@@ -84,10 +84,10 @@ Scrum, Agile, XP, Waterfall, TDD, BDD
 ## JCPenney, Plano, TX | April 2010 - May 2011
 ###Technical Lead
  
-* Designed and lead development for item master file web application and integration services.  Responsible for technical design, requirements analysis, driving the development process, and application deployment.
-* Lead a 14 person development team:  6 onsite; 8 offshore.
+* Designed and led development for item master file web application and integration services.  Responsible for technical design, requirements analysis, driving the development process, and application deployment.
+* Led a 14 person development team:  6 onsite; 8 offshore.
 * Taught Java to Cobol developers.
-* Founded JCPenney Java Users Group.
+* Founded the JCPenney Java Users Group.
 
 ---
 
@@ -95,7 +95,7 @@ Scrum, Agile, XP, Waterfall, TDD, BDD
 ### Technical Lead
 
 * Built a lead referral web application for Global Payment’s referral partners. 
-* Lead a 3 person development team.
+* Led a 3 person development team.
 * Instituted test-driven development TDD.
 * Built a custom business rules framework.
 
@@ -105,7 +105,7 @@ Scrum, Agile, XP, Waterfall, TDD, BDD
 ### Technical Lead
 
 * Built custom portal websites for Manheim customers.
-* Lead a 4 person development team.
+* Led a 4 person development team.
 * Participated in Plumtree’s Java portal beta testing programs for valued clients; contributed code fixes and features to Plumtree’s Java Portal implementation, specifically their Java Portlet container.
 * Migrated Manheim’s corporate intranet from a custom Struts application to a Plumtree Portal application. Built Portlets that exposed services and data from back end databases, CMS and collaboration systems; built content and collaboration Portlets .
 
